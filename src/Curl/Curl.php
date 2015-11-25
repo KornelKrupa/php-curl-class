@@ -757,7 +757,7 @@ class Curl
     public function setOpt($option, $value)
     {
         $required_options = array(
-            CURLOPT_RETURNTRANSFER => 'CURLOPT_RETURNTRANSFER',
+            //CURLOPT_RETURNTRANSFER => 'CURLOPT_RETURNTRANSFER',
         );
 
         if (in_array($option, array_keys($required_options), true) && !($value === true)) {
